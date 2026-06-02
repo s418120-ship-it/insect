@@ -2,7 +2,7 @@
 const MODEL_URL = "models/best.onnx";
 const LABELS_URL = "labels.json";
 const MODEL_INPUT_SIZE = 640; // 必須與 YOLOv8 匯出 ONNX 時的 imgsz 一致
-const IOU_THRESHOLD = 0.45;
+const IOU_THRESHOLD = 0.75;
 let CONF_THRESHOLD = 0.25;
 
 // ====== DOM ======
